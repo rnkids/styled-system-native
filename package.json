@@ -1,0 +1,19 @@
+{
+  "name": "styled-system-native",
+  "version": "1.0.9",
+  "description": "css-in-js",
+  "author": "rnkids",
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rnkids/styled-system-native"
+  },
+  "keywords": [
+    "styled-system-native",
+    "styled-system",
+    "styled-components",
+    "css-in-js",
+    "react-native"
+  ]
+}
