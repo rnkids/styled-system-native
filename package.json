@@ -1,10 +1,21 @@
 {
   "name": "styled-system-native",
-  "version": "1.0.9",
+  "version": "1.1.1",
   "description": "css-in-js",
   "author": "rnkids",
   "license": "MIT",
-  "main": "src/index.js",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "mangle": {
+    "regex": "^_"
+  },
+  "devDependencies": {
+    "microbundle": "^0.11.0",
+    "polished": "^3.5.2"
+  },
+  "scripts": {
+    "build": "microbundle -f es --sourcemap false --jsx React.createElement --globals react,react-native,react-is,styled-components"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/rnkids/styled-system-native"
