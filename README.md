@@ -5,7 +5,7 @@ Inspired from: styled-system-html
 
 ## Usage
 ```
-$ npm i -S styled-system-native styled-components react-is polished
+$ npm i -S styled-system-native styled-components react-is
 ```
 Then styled it like [styled-system](https://styled-system.com/api)
 ```jsx
