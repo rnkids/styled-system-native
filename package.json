@@ -1,6 +1,6 @@
 {
   "name": "styled-system-native",
-  "version": "1.1.2",
+  "version": "1.1.7",
   "description": "css-in-js",
   "author": "rnkids",
   "license": "MIT",
@@ -11,10 +11,12 @@
   },
   "devDependencies": {
     "microbundle": "^0.11.0",
-    "polished": "^3.5.2"
+    "polished": "^3.5.2",
+    "react-is-esm": "^16.8.4-alpha.0",
+    "styled-components-native-esm": "5.1.1"
   },
   "scripts": {
-    "build": "microbundle -f es --sourcemap false --jsx React.createElement --globals react,react-native,react-is,styled-components"
+    "build": "microbundle -f es --sourcemap false --jsx React.createElement --globals react,react-native --external react,react-native"
   },
   "repository": {
     "type": "git",

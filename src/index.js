@@ -1,6 +1,6 @@
 import React, { createContext, useContext, memo, useState, } from 'react'
-import * as ReactIs from "react-is";
-import styled from 'styled-components'
+import * as ReactIs from 'react-is-esm';
+import styled from 'styled-components-native-esm'
 import * as N from 'react-native'
 import { transparentize } from 'polished'
 

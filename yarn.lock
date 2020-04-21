@@ -224,15 +224,25 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@emotion/stylis@^0.8.5":
+  version "0.8.5"
+  resolved "https://registry.yarnpkg.com/@emotion/stylis/-/stylis-0.8.5.tgz#deacb389bd6ee77d1e7fcaccce9e16c5c7e78e04"
+  integrity sha512-h6KtPihKFn3T9fuIrwvXXUOwlx3rfUvfZIcP5a6rh8Y7zjE3O06hT5Ss4S/YI1AYhuZ1kjaE/5EaOOI2NqSylQ==
+
+"@emotion/unitless@^0.7.5":
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
+  integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
+
 "@types/estree@0.0.39":
   version "0.0.39"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
 "@types/node@*":
-  version "13.13.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.0.tgz#30d2d09f623fe32cde9cb582c7a6eda2788ce4a8"
-  integrity sha512-WE4IOAC6r/yBZss1oQGM5zs2D7RuKR6Q+w+X2SouPofnWn+LbCqClRyhO3ZE7Ix8nmFgo/oVuuE01cJT2XB13A==
+  version "13.13.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.1.tgz#1ba94c5a177a1692518bfc7b41aec0aa1a14354e"
+  integrity sha512-uysqysLJ+As9jqI5yqjwP3QJrhOcUwBjHUlUxPxjbplwKoILvXVsmYWEhfmAQlrPfbRZmhJB007o4L9sKqtHqQ==
 
 "@types/q@^1.5.1":
   version "1.5.2"
@@ -433,12 +443,12 @@ browserslist@^1.3.6, browserslist@^1.5.2, browserslist@^1.7.6:
     electron-to-chromium "^1.2.7"
 
 browserslist@^4.0.0, browserslist@^4.11.1:
-  version "4.11.1"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.11.1.tgz#92f855ee88d6e050e7e7311d987992014f1a1f1b"
-  integrity sha512-DCTr3kDrKEYNw6Jb9HFxVLQNaue8z+0ZfRBRjmCunKDEXEBajKDj2Y+Uelg+Pi29OnvaSGwjOsnRyNEkXzHg5g==
+  version "4.12.0"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.12.0.tgz#06c6d5715a1ede6c51fc39ff67fd647f740b656d"
+  integrity sha512-UH2GkcEDSI0k/lRkuDSzFl9ZZ87skSy9w2XAn1MsZnL+4c4rqbBd3e82UWHbYDpztABrPBhZsTEeuxVfHppqDg==
   dependencies:
-    caniuse-lite "^1.0.30001038"
-    electron-to-chromium "^1.3.390"
+    caniuse-lite "^1.0.30001043"
+    electron-to-chromium "^1.3.413"
     node-releases "^1.1.53"
     pkg-up "^2.0.0"
 
@@ -498,6 +508,11 @@ camelcase@^5.0.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
+camelize@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/camelize/-/camelize-1.0.0.tgz#164a5483e630fa4321e5af07020e531831b2609b"
+  integrity sha1-FkpUg+Yw+kMh5a8HAg5TGDGyYJs=
+
 caniuse-api@^1.5.2:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/caniuse-api/-/caniuse-api-1.6.1.tgz#b534e7c734c4f81ec5fbe8aca2ad24354b962c6c"
@@ -519,14 +534,14 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30001043"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30001043.tgz#2b9c7e8c63551d64616ca562e6877c989e5ad6a5"
-  integrity sha512-Dipx6NfbkUVEil8AUo/vt8oa9AF2JnR3mNpKV5YaB0a/v4nvDO8pzCuVdPJqr15FmSY6dBobciTDNLzbdVpVTA==
+  version "1.0.30001045"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30001045.tgz#87daa82cf21f0c4ba5d9ed75ba5dff6ff29fcf02"
+  integrity sha512-bwCb2ssU32vcxjG1P2VBOi1YV9W7G3RCG9m2++cX6Kql1oR+5w7vUBFL2SO47svJRUw+ai/d7yNT5VqoA2g3Sw==
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001038, caniuse-lite@^1.0.30001039:
-  version "1.0.30001043"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001043.tgz#1b561de27aefbe6ff99e41866b8d7d87840c513b"
-  integrity sha512-MrBDRPJPDBYwACtSQvxg9+fkna5jPXhJlKmuxenl/ml9uf8LHKlDmLpElu+zTW/bEz7lC1m0wTDD7jiIB+hgFg==
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001039, caniuse-lite@^1.0.30001043:
+  version "1.0.30001045"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001045.tgz#a770df9de36ad6ca0c34f90eaa797a2dbbb1b619"
+  integrity sha512-Y8o2Iz1KPcD6FjySbk1sPpvJqchgxk/iow0DABpGyzA1UeQAuxh63Xh0Enj5/BrsYbXtCN32JmR4ZxQTCQ6E6A==
 
 chalk@^1.0.0, chalk@^1.1.3:
   version "1.1.3"
@@ -711,6 +726,11 @@ cosmiconfig@^5.0.0:
     js-yaml "^3.13.1"
     parse-json "^4.0.0"
 
+css-color-keywords@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/css-color-keywords/-/css-color-keywords-1.0.0.tgz#fea2616dc676b2962686b3af8dbdbe180b244e05"
+  integrity sha1-/qJhbcZ2spYmhrOvjb2+GAskTgU=
+
 css-color-names@0.0.4, css-color-names@^0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
@@ -759,6 +779,15 @@ css-selector-tokenizer@^0.7.0:
     cssesc "^3.0.0"
     fastparse "^1.1.2"
     regexpu-core "^4.6.0"
+
+css-to-react-native@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/css-to-react-native/-/css-to-react-native-3.0.0.tgz#62dbe678072a824a689bcfee011fc96e02a7d756"
+  integrity sha512-Ro1yETZA813eoyUp2GDBhG2j+YggidUmzO1/v9eYBKR2EHVEniE2MI/NqpTQ954BMpTPZFsGNPm46qFB9dpaPQ==
+  dependencies:
+    camelize "^1.0.0"
+    css-color-keywords "^1.0.0"
+    postcss-value-parser "^4.0.2"
 
 css-tree@1.0.0-alpha.37:
   version "1.0.0-alpha.37"
@@ -991,10 +1020,10 @@ duplexer@^0.1.1:
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
   integrity sha1-rOb/gIwc5mtX0ev5eXessCM0z8E=
 
-electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.390:
-  version "1.3.413"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.413.tgz#9c457a4165c7b42e59d66dff841063eb9bfe5614"
-  integrity sha512-Jm1Rrd3siqYHO3jftZwDljL2LYQafj3Kki5r+udqE58d0i91SkjItVJ5RwlJn9yko8i7MOcoidVKjQlgSdd1hg==
+electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.413:
+  version "1.3.414"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.414.tgz#9d0a92defefda7cc1cf8895058b892795ddd6b41"
+  integrity sha512-UfxhIvED++qLwWrAq9uYVcqF8FdeV9sU2S7qhiHYFODxzXRrd1GZRl/PjITHsTEejgibcWDraD8TQqoHb1aCBQ==
 
 emojis-list@^3.0.0:
   version "3.0.0"
@@ -1320,6 +1349,13 @@ hex-color-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
   integrity sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ==
+
+hoist-non-react-statics@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
+  integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
+  dependencies:
+    react-is "^16.7.0"
 
 hsl-regex@^1.0.0:
   version "1.0.0"
@@ -2774,6 +2810,16 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-is-esm@^16.8.4-alpha.0:
+  version "16.8.4-alpha.0"
+  resolved "https://registry.yarnpkg.com/react-is-esm/-/react-is-esm-16.8.4-alpha.0.tgz#0d86f42584bc0d378b97ba17a46fee3a2b8f82e4"
+  integrity sha512-8m4VnSlL2rZHFda+BZF3Cr6UCwLpfZ4whmQ5yb6FZzyDecDO+xXSSmTe6DMY18formkJegm+F5I6HxLcG1SIaQ==
+
+react-is@^16.7.0:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
 readable-stream@^2.0.1, readable-stream@^2.0.6:
   version "2.3.7"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.7.tgz#1eca1cf711aef814c04f62252a36a62f6cb23b57"
@@ -3113,6 +3159,11 @@ set-blocking@~2.0.0:
   resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
   integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
 
+shallowequal@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
+  integrity sha512-y0m1JoUZSlPAjXVtPPW70aZWfIL/dSP7AFkRnniLCrK/8MDKog3TySTBmckD+RObVxH0v4Tox67+F14PdED2oQ==
+
 signal-exit@^3.0.0:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
@@ -3282,6 +3333,19 @@ style-inject@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/style-inject/-/style-inject-0.3.0.tgz#d21c477affec91811cc82355832a700d22bf8dd3"
   integrity sha512-IezA2qp+vcdlhJaVm5SOdPPTUu0FCEqfNSli2vRuSIBbu5Nq5UvygTk/VzeCqfLz2Atj3dVII5QBKGZRZ0edzw==
+
+styled-components-native-esm@5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/styled-components-native-esm/-/styled-components-native-esm-5.1.1.tgz#20ed860bba59777d174e9272686423d08c7db76b"
+  integrity sha512-Sf2MVQGs64oyADX6F1zHTBVxJiExc4msogkLf4nMK58zZrS3uPGHhgBI7HkVLYy/vE2hqZ4FAcGCI7yZFXJmlg==
+  dependencies:
+    "@emotion/stylis" "^0.8.5"
+    "@emotion/unitless" "^0.7.5"
+    css-to-react-native "^3.0.0"
+    hoist-non-react-statics "^3.3.2"
+    polished "^3.5.2"
+    react-is-esm "^16.8.4-alpha.0"
+    shallowequal "^1.1.0"
 
 stylehacks@^4.0.0:
   version "4.0.3"
